@@ -1,7 +1,7 @@
 # Site settings
 title: Home | SinglePayerNOW
 
-description: Future home for the sebsite behind SinglePayerNOW
+description: Future home for the website behind SinglePayerNOW
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://singlepayernow.us" # the base hostname & protocol for your site
 
