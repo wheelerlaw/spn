@@ -1,7 +1,7 @@
 # Site settings
-title: wheelerlaw | spn
+title: Home | SinglePayerNOW
 
-description: The ultimate Jekyll template for use with Github pages and TravisCI
+description: Future home for the sebsite behind SinglePayerNOW
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://github.io/wheelerlaw/spn" # the base hostname & protocol for your site
 
