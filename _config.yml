@@ -3,7 +3,7 @@ title: Home | SinglePayerNOW
 
 description: Future home for the sebsite behind SinglePayerNOW
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://github.io/wheelerlaw/spn" # the base hostname & protocol for your site
+url: "https://singlepayernow.us" # the base hostname & protocol for your site
 
 permalink: /blog/:year/:month/:day/:title/
 
