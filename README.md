@@ -1,5 +1,5 @@
-# ultimate-ghpages-jekyll-template
-[![Build Status](https://travis-ci.com/wheelerlaw/ultimate-ghpages-jekyll-template.svg?branch=develop)](https://travis-ci.com/wheelerlaw/ultimate-ghpages-jekyll-template)
+# spn
+[![Build Status](https://travis-ci.com/wheelerlaw/spn.svg?branch=develop)](https://travis-ci.com/wheelerlaw/spn)
 
 ### The ultimate Jekyll template for use with Github pages and TravisCI
 
@@ -15,7 +15,7 @@ Next, configure the repo settings to use Github pages like so:
 
 Currently this template only supports setting the `master` branch as the Github Pages source. 
 
-Next, navigate to the page for the repo (in this repo's case, [wheelerlaw.github.io/ultimate-ghpages-jekyll-template](http://wheelerlaw.github.io/ultimate-ghpages-jekyll-template)):
+Next, navigate to the page for the repo (in this repo's case, [wheelerlaw.github.io/spn](http://wheelerlaw.github.io/spn)):
 ![](local/result.png)
 
 ## Build System
@@ -61,8 +61,8 @@ git config --global user.email "<add your email address you use to sign into GH 
 
 To get started developing, first clone the repo if you have not already done so:
 ```
-git clone https://github.com/wheelerlaw/ultimate-ghpages-jekyll-template.git
-cd ultimate-ghpages-jekyll-template
+git clone https://github.com/wheelerlaw/spn.git
+cd spn
 ```
 
 If you have just cloned the repo, you can probably skip this next step. Otherwise, checkout `develop` and pull the latest changes:

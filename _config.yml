@@ -1,9 +1,9 @@
 # Site settings
-title: wheelerlaw | ultimate-ghpages-jekyll-template
+title: wheelerlaw | spn
 
 description: The ultimate Jekyll template for use with Github pages and TravisCI
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://github.io/wheelerlaw/ultimate-ghpages-jekyll-template" # the base hostname & protocol for your site
+url: "https://github.io/wheelerlaw/spn" # the base hostname & protocol for your site
 
 permalink: /blog/:year/:month/:day/:title/
 
