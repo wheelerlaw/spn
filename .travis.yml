@@ -1,0 +1,30 @@
+language: ruby
+rvm: 2.2.5
+sudo: false
+dist: trusty
+branches:
+  only:
+  - develop
+env:
+  secure: Wt9zrTeElCBZFJzmC+LLLD9o8a1yif5yxRRvYNWDsVsTPT1Cu7TrOb8HryAhbTSN8FcnVBM4iyutG+9BPVHbL3MRLLdbX+3NV6wC556YJNtajzBBU7MkuZphXJN0IvzarNBNVd2IbXnOsHaY4Vybv93sJEjd0g7L0tj51q3CPeFO2hV/2nia6Q5p/zgg8pFQiTh7dDXpWMML3oGmqHt8o1EdITpSFLXHIkk0WQjbysS9wjvRefQ3v9Bv+ejqPtLAo0cQ+VE1lLae0afoG/ElhwX6oI0izRtIm08/DQpvCPXoZ8fgIkJw/cB18CQILPsayioBuIr2DZythfeS/YGZyAH9jOIZoKM9o5wNWtGRlkAiIClBvUCGtL901idXOMY1BeRrLW6uc5Xu90Zq/QXKRDlfId5HcVI43nRzpfoRTMDHGDLuDV/0goCrp1rxn1eMIepZhcmWdTMwdao+GEVTHSnQIOsuMO0APL5E6A7HA7Mt3ilOwPvMHHUwqxGIGFdxNag+3ZHNW7o3C61rpsCHFRVBrOZb8VZPjNfMqgxlfUUdpc8D2s8hfeV8FmDBkLtLVeuLITtJI48BUybuoEGpTpyv1njwbxgR8K3h5LReUcjTbkn8kdeERc4maX6PtWXQZgflcQ2tPW6TSqBiL5uHm9syyjrrtAaPuXAVz7Wrl88=
+install: gem install jekyll jekyll-paginate rake
+script: rake
+deploy:
+  provider: pages
+  local-dir: _site
+  target-branch: master
+  skip-cleanup: true
+  github-token: "$GITHUB_TOKEN"
+  keep-history: true
+  verbose: true
+  on:
+    branch:
+    - develop
+# Uncomment the following section if you would want to enable Slack notifications on successful builds:
+#notifications:
+#  email: false
+#  slack:
+#    on_success: always
+#    on_pull_requests: false
+#    rooms:
+#      secure: bQ+JQApoxyRzSBl6SE1KCFkDmncV6o5FMMSBAeGIrW/Nx2g1HIokrYP1DNNwmd0IeWEUbJaGxqqYQ6EKfqyVv+lb8SqVCbfiGSlJcsa3VCM8qcvLbgqgUiVIcX6I7zlU1L6XW2p1NqTuP67Tc3Hicn5oFUb7ijjb4BsvQrRCIl8=

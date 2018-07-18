@@ -1,0 +1,28 @@
+# Site settings
+title: wheelerlaw | ultimate-ghpages-jekyll-template
+
+description: The ultimate Jekyll template for use with Github pages and TravisCI
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://github.io/wheelerlaw/ultimate-ghpages-jekyll-template" # the base hostname & protocol for your site
+
+permalink: /blog/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+
+paginate: 5
+plugins: [jekyll-paginate]
+exclude:
+ - package.json
+ - README.md
+ - LICENSE.md
+ - node_modules
+ - scripts
+ - .travis.yml
+ - Rakefile
+ - local
+
+collections:
+  projects:
+    output: true
+version: 0.1
