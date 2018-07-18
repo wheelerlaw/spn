@@ -15,7 +15,6 @@ plugins: [jekyll-paginate]
 exclude:
  - package.json
  - README.md
- - LICENSE.md
  - node_modules
  - scripts
  - .travis.yml
