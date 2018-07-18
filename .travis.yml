@@ -6,7 +6,7 @@ branches:
   only:
   - develop
 env:
-  secure: Wt9zrTeElCBZFJzmC+LLLD9o8a1yif5yxRRvYNWDsVsTPT1Cu7TrOb8HryAhbTSN8FcnVBM4iyutG+9BPVHbL3MRLLdbX+3NV6wC556YJNtajzBBU7MkuZphXJN0IvzarNBNVd2IbXnOsHaY4Vybv93sJEjd0g7L0tj51q3CPeFO2hV/2nia6Q5p/zgg8pFQiTh7dDXpWMML3oGmqHt8o1EdITpSFLXHIkk0WQjbysS9wjvRefQ3v9Bv+ejqPtLAo0cQ+VE1lLae0afoG/ElhwX6oI0izRtIm08/DQpvCPXoZ8fgIkJw/cB18CQILPsayioBuIr2DZythfeS/YGZyAH9jOIZoKM9o5wNWtGRlkAiIClBvUCGtL901idXOMY1BeRrLW6uc5Xu90Zq/QXKRDlfId5HcVI43nRzpfoRTMDHGDLuDV/0goCrp1rxn1eMIepZhcmWdTMwdao+GEVTHSnQIOsuMO0APL5E6A7HA7Mt3ilOwPvMHHUwqxGIGFdxNag+3ZHNW7o3C61rpsCHFRVBrOZb8VZPjNfMqgxlfUUdpc8D2s8hfeV8FmDBkLtLVeuLITtJI48BUybuoEGpTpyv1njwbxgR8K3h5LReUcjTbkn8kdeERc4maX6PtWXQZgflcQ2tPW6TSqBiL5uHm9syyjrrtAaPuXAVz7Wrl88=
+  secure: jw6dUUvb+eztJxBOTf40cT/M/xhOZtUBdYQTV2alipnhaurO30ifpc1507kE1DhNzRQ04VZ/KSa9KWv3ewgigoC7vA+FtwDhS73a5xF3pB/uCKB68NWdVdgCF23K5udjsYXbBN7aBbree4Nuwg/fXHsuBAmR0tnxE8PZ7fb8ETbSVUd6xe72HK0riU1Wc6rxCkE4JAM7H8GE7m+lxq4M0tQ7VKBQYypA9ZTRe3Fvx0Mdks/OHE7TZf6LVVmNkANQeloRY0yD4lhrPGJkOdRFtBJBxlKe5Il9nQNeJIJt7bZbZdmRL8vuMjWudhJOiN7awDTA8LndI1kE1D1kDcaZGrzlsbONBVUQBPOh8PKcH5DC1N3gsIboRJOf6a116FUDnaUZYnndbA7Gqdm44U0KToCeIu3tFrJcpU3LTQ7EQGQcx+sNR8ORPqvxehTFX5pVGnqVfBE+VS9PthkHJJZ6X5xukLA/SWFGYQRgl+dXB1J6y8Row679XizVQhCjsEImWa9FQgO04SUcwPrwLTBdSkTZDENQCzu+HWqmTOOVItAEOqV1K2146Pl2abtimn96Ruc8Mr/eFacvWAn3wEPrkDYf97Iy5YFq67rQMkkn69/yoLeeiCQmInr0qcQSUVq6fQ1VFQKMywCHhWr+NW3BHHrFiDGvITDX0btWI1u8Slk=
 install: gem install jekyll jekyll-paginate rake
 script: rake
 deploy:
@@ -20,11 +20,3 @@ deploy:
   on:
     branch:
     - develop
-# Uncomment the following section if you would want to enable Slack notifications on successful builds:
-#notifications:
-#  email: false
-#  slack:
-#    on_success: always
-#    on_pull_requests: false
-#    rooms:
-#      secure: bQ+JQApoxyRzSBl6SE1KCFkDmncV6o5FMMSBAeGIrW/Nx2g1HIokrYP1DNNwmd0IeWEUbJaGxqqYQ6EKfqyVv+lb8SqVCbfiGSlJcsa3VCM8qcvLbgqgUiVIcX6I7zlU1L6XW2p1NqTuP67Tc3Hicn5oFUb7ijjb4BsvQrRCIl8=
